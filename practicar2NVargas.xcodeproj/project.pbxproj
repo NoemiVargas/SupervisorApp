@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0321739704F13BA6F9751BA9 /* Pods_practicar2NVargas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C442FEDDF8456715631A39 /* Pods_practicar2NVargas.framework */; };
 		5A3424C82AEC7188004BE26D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3424C72AEC7188004BE26D /* AppDelegate.swift */; };
 		5A3424CA2AEC7188004BE26D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3424C92AEC7188004BE26D /* SceneDelegate.swift */; };
 		5A3424CC2AEC7188004BE26D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3424CB2AEC7188004BE26D /* ViewController.swift */; };
@@ -14,9 +15,12 @@
 		5A3424D22AEC7188004BE26D /* practicar2NVargas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A3424D02AEC7188004BE26D /* practicar2NVargas.xcdatamodeld */; };
 		5A3424D42AEC718E004BE26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A3424D32AEC718E004BE26D /* Assets.xcassets */; };
 		5A3424D72AEC718E004BE26D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3424D52AEC718E004BE26D /* LaunchScreen.storyboard */; };
+		5A3424DF2AECEF23004BE26D /* Supervisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3424DE2AECEF23004BE26D /* Supervisor.swift */; };
+		5A3424E12AECF9D0004BE26D /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3424E02AECF9D0004BE26D /* DetalleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B8547E23E178B376061335B /* Pods-practicar2NVargas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practicar2NVargas.debug.xcconfig"; path = "Target Support Files/Pods-practicar2NVargas/Pods-practicar2NVargas.debug.xcconfig"; sourceTree = "<group>"; };
 		5A3424C42AEC7188004BE26D /* practicar2NVargas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practicar2NVargas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3424C72AEC7188004BE26D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A3424C92AEC7188004BE26D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,10 @@
 		5A3424D32AEC718E004BE26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A3424D62AEC718E004BE26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A3424D82AEC718E004BE26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3424DE2AECEF23004BE26D /* Supervisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supervisor.swift; sourceTree = "<group>"; };
+		5A3424E02AECF9D0004BE26D /* DetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+		E56FF85020EFCD3FB9F45828 /* Pods-practicar2NVargas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practicar2NVargas.release.xcconfig"; path = "Target Support Files/Pods-practicar2NVargas/Pods-practicar2NVargas.release.xcconfig"; sourceTree = "<group>"; };
+		F1C442FEDDF8456715631A39 /* Pods_practicar2NVargas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practicar2NVargas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0321739704F13BA6F9751BA9 /* Pods_practicar2NVargas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,8 @@
 			children = (
 				5A3424C62AEC7188004BE26D /* practicar2NVargas */,
 				5A3424C52AEC7188004BE26D /* Products */,
+				91DDD135E79BDE2B2396DB3B /* Pods */,
+				76AA03C0F9C08EF1E8FEEC1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +77,27 @@
 				5A3424D52AEC718E004BE26D /* LaunchScreen.storyboard */,
 				5A3424D82AEC718E004BE26D /* Info.plist */,
 				5A3424D02AEC7188004BE26D /* practicar2NVargas.xcdatamodeld */,
+				5A3424DE2AECEF23004BE26D /* Supervisor.swift */,
+				5A3424E02AECF9D0004BE26D /* DetalleViewController.swift */,
 			);
 			path = practicar2NVargas;
+			sourceTree = "<group>";
+		};
+		76AA03C0F9C08EF1E8FEEC1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1C442FEDDF8456715631A39 /* Pods_practicar2NVargas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91DDD135E79BDE2B2396DB3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B8547E23E178B376061335B /* Pods-practicar2NVargas.debug.xcconfig */,
+				E56FF85020EFCD3FB9F45828 /* Pods-practicar2NVargas.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A3424DB2AEC718E004BE26D /* Build configuration list for PBXNativeTarget "practicar2NVargas" */;
 			buildPhases = (
+				35B00F3C4F21F4E01B9574A7 /* [CP] Check Pods Manifest.lock */,
 				5A3424C02AEC7188004BE26D /* Sources */,
 				5A3424C12AEC7188004BE26D /* Frameworks */,
 				5A3424C22AEC7188004BE26D /* Resources */,
+				06CDA0CEDE18BB67708D2617 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +168,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06CDA0CEDE18BB67708D2617 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-practicar2NVargas/Pods-practicar2NVargas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-practicar2NVargas/Pods-practicar2NVargas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-practicar2NVargas/Pods-practicar2NVargas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35B00F3C4F21F4E01B9574A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-practicar2NVargas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A3424C02AEC7188004BE26D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3424E12AECF9D0004BE26D /* DetalleViewController.swift in Sources */,
 				5A3424CC2AEC7188004BE26D /* ViewController.swift in Sources */,
 				5A3424C82AEC7188004BE26D /* AppDelegate.swift in Sources */,
 				5A3424CA2AEC7188004BE26D /* SceneDelegate.swift in Sources */,
 				5A3424D22AEC7188004BE26D /* practicar2NVargas.xcdatamodeld in Sources */,
+				5A3424DF2AECEF23004BE26D /* Supervisor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +362,7 @@
 		};
 		5A3424DC2AEC718E004BE26D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8547E23E178B376061335B /* Pods-practicar2NVargas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +390,7 @@
 		};
 		5A3424DD2AEC718E004BE26D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56FF85020EFCD3FB9F45828 /* Pods-practicar2NVargas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
